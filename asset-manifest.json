@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/blog-platzi/static/css/main.26d98643.chunk.css",
+    "main.js": "/blog-platzi/static/js/main.6c55b567.chunk.js",
+    "main.js.map": "/blog-platzi/static/js/main.6c55b567.chunk.js.map",
+    "runtime~main.js": "/blog-platzi/static/js/runtime~main.997fb3f2.js",
+    "runtime~main.js.map": "/blog-platzi/static/js/runtime~main.997fb3f2.js.map",
+    "static/js/2.7d104aac.chunk.js": "/blog-platzi/static/js/2.7d104aac.chunk.js",
+    "static/js/2.7d104aac.chunk.js.map": "/blog-platzi/static/js/2.7d104aac.chunk.js.map",
+    "index.html": "/blog-platzi/index.html",
+    "precache-manifest.3759d410ca24100637a37090cb3f55c5.js": "/blog-platzi/precache-manifest.3759d410ca24100637a37090cb3f55c5.js",
+    "service-worker.js": "/blog-platzi/service-worker.js",
+    "static/css/main.26d98643.chunk.css.map": "/blog-platzi/static/css/main.26d98643.chunk.css.map",
+    "static/media/logo.png": "/blog-platzi/static/media/logo.d27dc22a.png",
+    "static/media/portal.png": "/blog-platzi/static/media/portal.2601412a.png",
+    "static/media/user.jpg": "/blog-platzi/static/media/user.6b21b7b9.jpg"
+  }
+}
