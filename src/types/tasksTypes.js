@@ -1,0 +1,5 @@
+export const UPDATE_TASKS = 'UPDATE_TASKS'
+export const SAVE_TASK = 'SAVE_TASK'
+export const LOADING = 'LOADING_TASKS'
+export const ERROR = 'ERROR_TASKS'
+export const CHANGE_NEW_TASK = 'CHANGE_NEW_TASK'

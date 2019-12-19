@@ -1,0 +1,18 @@
+th {
+  background: #1d1d1d;
+  color: white;
+  padding: 8px 15px;
+  font-weight: normal;
+}
+
+tr td:last-child {
+  background: none;
+  display: flex;
+}
+
+td {
+  padding: 10px 25px;
+  background: #cfcfcf;
+  color: #2b2b2b;
+  text-align: center;
+}

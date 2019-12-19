@@ -1,0 +1,27 @@
+.Tasks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 4rem;
+  height: 100%;
+}
+
+.Tasks__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Tasks__user h2 {
+  margin-bottom: .3rem;
+}
+
+.User__tasks {
+  font-size: 1rem;
+  align-self: flex-start;
+  margin: 0 0 .6rem 1rem;
+}
+
+.Task {
+  margin-bottom: 0.1rem;
+}

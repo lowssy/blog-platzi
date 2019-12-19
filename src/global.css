@@ -1,0 +1,187 @@
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Layout {
+  height: calc(100vh - 3rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  color: #252525;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  outline: 0;
+  padding: .3rem 1rem;
+  background: #2cdf49;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 0.2rem;
+  transition: 300ms;
+  font-size: .9rem;
+}
+
+.btn:hover {
+  letter-spacing: initial;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.btn.md {
+  width: 70%;
+  font-size: 1rem;
+}
+
+.btn.big {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.btn[disabled] {
+  cursor: not-allowed;
+  background: #df382c;
+}
+
+.btn[disabled]:hover {
+  letter-spacing: 0.2rem;
+}
+
+.btn__option {
+  cursor: pointer;
+  outline: 0;
+  width: 1rem;
+  height: 1.1rem;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  margin: 0 .5rem 0 0;
+  transition: 300ms;
+  font-size: 1rem;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #2b2b2b;
+}
+
+.btn__option:hover {
+  box-shadow: inset 1rem 1.1rem 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn__option:active {
+  transform: scale(0.6);
+}
+
+.btn__option.edit {
+  background: #f5d625;
+}
+
+.btn__option.delete {
+  background: #f54425;
+}
+
+.checkbox {
+  appearance: none;
+  outline: 0;
+  width: .8rem;
+  height: .8rem;
+  border: .1rem solid #313131;
+  border-radius: 2px;
+  margin: 0 .2rem 0 0;
+  transition: 300ms;
+  position: relative;
+}
+
+.checkbox:active {
+  transform: scale(0.6);
+}
+
+.checkbox:checked::after {
+  content: "✔️";
+  position: absolute;
+  top: -.4rem;
+  left: -.3rem;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 1rem;
+}
+
+.form-group {
+  font-size: 1.04rem;
+  margin-top: .5rem;
+}
+
+.form-group input {
+  margin-left: .4rem;
+  font-size: 1rem;
+  border: .08rem solid #cfcfcf;
+  border-radius: .2rem;
+  padding: .1rem .2rem;
+}
+
+/************** ICONS ***********/
+.eye.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 70% 15%;
+  border: solid 1px currentColor;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  align-self: center;
+  justify-self: center;
+}
+
+.eye.icon:before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+}
+
+.profile.icon {
+  color: #2b2b2b;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 11px;
+  width: 14px;
+  height: 6px;
+  border-left: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  border-top: solid 1px currentColor;
+  border-bottom: solid 1px transparent;
+  border-radius: 6px 6px 0 0;
+}
+
+.profile.icon:before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: -10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+}

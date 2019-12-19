@@ -1,0 +1,18 @@
+.Post {
+  background: #f7f7f7;
+  border-radius: .3rem;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  max-width: 28rem;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.Post:hover {
+  transform: translateX(1rem);
+}
+
+.Post p {
+  color: #363636;
+}

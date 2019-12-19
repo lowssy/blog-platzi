@@ -1,0 +1,118 @@
+.NotFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  color: #2b2b2b;
+}
+
+.NotFound h1 {
+  margin: 0;
+}
+
+.NotFound__portal {
+  display: flex;
+  justify-content: center;
+}
+
+.NotFound__portal {
+  position: relative;
+  overflow: hidden;
+  transition: 300ms;
+}
+
+.NotFound__portal:hover {
+  transform: scale(0.95);
+}
+
+.NotFound__portal img {
+  max-width: 32%;
+  clip-path: circle(50% at center);
+}
+
+.NotFound__portal::after {
+  content: "Go home: C-137";
+  position: absolute;
+  z-index: 3;
+  align-self: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 8px;
+  transition: 300ms;
+  animation: glitch infinite 1s steps(2) alternate;
+}
+
+.NotFound__portal:hover::after {
+  animation: none;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+
+.NotFound__portal::before {
+  content: "";
+  clip-path: circle(49.5% at center);
+  position: absolute;
+  z-index: 2;
+  top: 0; bottom: 0;
+  width: 32%;
+  background-image: rgb(42,136,27);
+  background-image: linear-gradient(90deg, rgba(42,136,27,1) 0%, rgba(125,255,0,1) 100%);
+  mix-blend-mode: soft-light;
+  animation: distort infinite 1s ease-in-out alternate;
+}
+
+@keyframes distort {
+  0% {
+    opacity: 0.2;
+    transform: rotate(0deg);
+  }
+
+  30% {
+    opacity: 0.9;
+  }
+
+  65% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0.6;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes glitch {
+  0% {
+    opacity: 0;
+  }
+
+  12.5% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  37.5% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  62.5% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

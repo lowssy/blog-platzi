@@ -1,0 +1,62 @@
+.User {
+  width: 100%;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1.8fr 1.2fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "user posts comments";
+}
+
+.User__info {
+  grid-area: user;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.User__info img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.User__info h1 {
+  margin: 1rem 0 0 0;
+}
+
+.User__info span {
+  color: #363636;
+}
+
+.User__posts {
+  grid-area: posts;
+  height: calc(100vh - 3rem);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.User__posts h1, .Post__comments h1 {
+  color: #cfcfcf;
+  align-self: flex-start;
+  margin-left: 2rem;
+}
+
+.Post__comments {
+  grid-area: comments;
+  height: calc(100vh - 3rem);
+  overflow-y: auto;
+}
+
+.Post__comments h1 {
+  margin: 0;
+}
+
+.Post__comments h1:nth-child(1) {
+  margin-top: 1rem;
+}
+
+.Post__comments h1 b {
+  color: #6b6b6b;
+}

@@ -1,0 +1,48 @@
+.Comments h1 {
+  color: #cfcfcf;
+  align-self: flex-start;
+  margin-left: 2rem;
+}
+
+.Comments {
+  grid-area: comments;
+  height: calc(100vh - 3rem);
+  overflow-y: auto;
+}
+
+.Comments h1 {
+  margin: 0;
+}
+
+.Comments h1:nth-child(1) {
+  margin-top: 1rem;
+}
+
+.Comments h1:nth-child(2) {
+  margin-bottom: 1rem;
+}
+
+.Comments h1 b {
+  color: #6b6b6b;
+}
+
+.Comment {
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+  border-radius: .3rem;
+  margin-bottom: 1rem;
+  padding: .5rem 2rem;
+  max-width: 18rem;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.Comment span {
+  align-self: flex-end;
+  color: #505050;
+}
+
+.Comment p {
+  color: #363636;
+}

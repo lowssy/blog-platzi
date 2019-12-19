@@ -1,0 +1,7 @@
+export const GET_POSTS = 'GET_POSTS'
+export const UPDATE_POSTS = 'UPDATE_POSTS'
+export const LOADING = 'LOADING_POSTS'
+export const ERROR = 'ERROR_POSTS'
+export const LOADING_COMMENTS = 'LOADING_COMMENTS'
+export const ERROR_COMMENTS = 'ERROR_COMMENTS'
+export const UPDATE_COMMENTS = 'UPDATE_COMMENTS'

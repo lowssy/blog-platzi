@@ -1,3 +1,4 @@
+You can see the final result by clicking on the link above.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
