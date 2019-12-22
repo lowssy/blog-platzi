@@ -9,7 +9,7 @@ import Tasks from './Tasks'
 import AddTask from './AddTask'
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/blog-platzi">
     <Navbar />
     <div className="Layout">
       <Switch>
